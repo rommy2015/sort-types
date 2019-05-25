@@ -1,2 +1,2 @@
-# sort-kindes
+# sort-types
 виды сортировки
