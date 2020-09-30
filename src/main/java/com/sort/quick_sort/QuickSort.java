@@ -2,6 +2,20 @@ package com.sort.quick_sort;
 
 public class QuickSort {
 
+
+    /**
+     *  Один из быстрых известных универсальных алгоритмов
+     *  сортировки массивов (в среднем O(n log n) обменов
+     *  при упорядочении n элементов).
+     *  Является существенно улучшенным
+     *  вариантом алгоритма сортировки с
+     *  помощью прямого обмена. Принципиальное
+     *  отличие состоит в том, что после каждого
+     *  прохода элементы делятся на две независимые группы.
+     * @param source
+     * @param leftBorder
+     * @param rightBorder
+     */
     public static void quickSort(int[] source, int leftBorder, int rightBorder){
 
         int leftMarker = leftBorder;

@@ -6,6 +6,7 @@ import static com.sort.bubble_sort.BubbleSort.swap;
 
 public class SortShell {
 
+
     public static void sortOfShell(int[] array) {
 
         String arrayBefore = Arrays.toString(array);
