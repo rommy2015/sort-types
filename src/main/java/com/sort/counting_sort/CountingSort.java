@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class CountingSort {
 
+    /**
+     * Алгоритмическая сложность в этом случае будет O(n+k),
+     * где n — количество элементов,
+     * а k — максимальное значение элемента.
+     * @param theArray
+     * @param maxValue
+     */
     public static void countingSort(int[] theArray, int maxValue) {
 
         String arrayBefore = Arrays.toString(theArray);

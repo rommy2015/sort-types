@@ -5,6 +5,10 @@ import java.util.Arrays;
 
 public class InsertionSort {
 
+    /**
+     * Вычислительная сложность — O ( n 2 ).
+     * @param array
+     */
     public static void sortByInsertion(int[] array) {
 
         String arrayBefore = Arrays.toString(array);
